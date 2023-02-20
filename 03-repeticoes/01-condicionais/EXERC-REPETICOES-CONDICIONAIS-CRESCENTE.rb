@@ -1,4 +1,5 @@
-print "Digite dois números: \n"
+5
+4print "Digite dois números: \n"
 num_1 = gets.chomp.to_i
 num_2 = gets.chomp.to_i
 
