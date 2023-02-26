@@ -15,7 +15,6 @@ n.times do |i|
   score1[i] = gets.chomp.to_f
 end
 
-puts 'ALUNOS APROVADOS:'
-names.each_with_index do |name, i| 
-  puts " #{name}" if ((score1[i] + score2[i]) / 2) >= 6.0
+names.each_with_index do |names, i| # .each_with_index é um método da classe Enumerable, que todo Array inclui como biblioteca
+  puts "ALUNOS APROVADO - #{names}\n" if ((score1[i] + score2[i]) / 2) >= 6.0
 end
